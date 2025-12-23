@@ -1,31 +1,41 @@
-About the Game
+# C Programming Projects
 
-The Chicken–Fox–Grain game is a classic problem that tests logical thinking and planning. You are given a boat and three items that need to cross a river. Since the boat can carry only one item at a time, every move matters.
-Leaving the wrong pair together can end the game:
-The fox will attack the chicken.
-The chicken will consume the grain.
-By making smart choices and returning the boat when needed, the player must ensure all items safely reach the destination.
-
-Goal: Complete the crossing without violating any safety rules.
+A collection of C programming projects focused on logic building, structured programming, and real-world problem solving.  
+All projects are console-based and implemented using standard C.
 
 ---
 
-### 🎯 How to Play
-- Start with all items on the left side of the river.
-- When prompted, choose one action:
-  - `c` → Move Chicken
-  - `f` → Move Fox
-  - `g` → Move Grain
-  - `n` → Move the boat alone
-- The boat can carry only one item at a time.
-- Avoid leaving the chicken with the fox or the grain.
-- Continue until all items reach the opposite bank safely.
+## 📂 Projects
+
+### 🐔 Chicken–Fox–Grain Puzzle Game
+A classic river-crossing logic puzzle where the player must safely transport a chicken, a fox, and grains while following strict rules.
 
 ---
 
-### 📘 Learning Outcomes
-- Strengthened logical thinking and problem-solving skills
-- Gained hands-on experience with conditional statements
-- Learned practical use of functions and pointers
-- Improved handling of user input in C
-- Understood how to manage game state in a program
+### 🍽️ Food Ordering System (Foodify)
+A menu-driven food ordering application that allows users to select food items and beverages and automatically calculates the total bill.
+
+---
+
+### 💰 Personal Finance Manager
+A simple personal finance tracking system that records income and expenses and displays a financial summary.
+
+---
+
+### 🌱 Carbon Footprint Calculator
+An application that estimates carbon emissions based on electricity consumption and vehicle usage and provides suggestions to reduce environmental impact.
+
+---
+
+### 🔌 Switch State Program
+A beginner-level program that determines whether a switch is ON or OFF based on user input.
+
+---
+
+## ▶ How to Run
+
+Compile and run any program using GCC:
+
+```bash
+gcc filename.c -o output
+./output
